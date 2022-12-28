@@ -16,7 +16,7 @@ If you'd like to interact with any of our contracts, we highly recommend that yo
 
 ## Smart Contract Registry
 
-All addresses are the same in our deployed networks. So far, we are deployed in **Optimism**, **Polygon** and **Arbitrum One**.
+All addresses are the same on the networks we deployed on. So far, we are deployed on **Optimism**, **Polygon**, **Arbitrum One** and **Ethereum**.
 
 | **Contract**       | **Address**                                |
 | ------------------ | ------------------------------------------ |
