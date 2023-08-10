@@ -4,13 +4,15 @@ We've explained how positions works, and that swaps are executed by external mar
 
 ## Oracle
 
-In order to determine the price between tokens, we currently use one of two different sources:  Chainlink and Uniswap v3. When a pair is initialized for the first time, we check if the pair is available through Chainlink's price feeds. If it is, we will use Chainlink for that pair.&#x20;
-
-If it's not available, then we will try to use Uniswap v3. If the pair is also not available in Uniswap v3, then a position can't be created for that pair.
+In order to determine the price between tokens, we currently use one of three different sources:  Chainlink, API3 and Uniswap v3. When a pair is initialized for the first time, we check if the pair is available through (in this order): Chainlink, API3 or Uniswap. If the pair is not available in any of them, then a position can't be created for that pair.
 
 ### Chainlink
 
 Chainlink Data Feeds provide smart contract developers with access to a secure and reliable source of real-world data to power their unique use cases for DeFi and beyond. You can read more about them on their [website](https://chain.link/data-feeds).
+
+### API3 dAPIs
+
+dAPIs are continuously updated streams of off-chain data, such as the latest cryptocurrency, stock, and commodity prices. They are secure, transparent, and cost-efficient data feeds that connect smart contracts directly to first-party data sources. They are powered by Airnode, the serverless first-party oracle solution developed by the API3 DAO. You can read more about them on their [website](https://old-docs.api3.org/dapis/).
 
 ### Uniswap V3
 
