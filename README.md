@@ -14,8 +14,8 @@ Mean Finance is the state-of-the-art DCA open protocol that enables users (or da
 
 * **We can change the oracle provider smart-contract via a timelocked function.**\
   In order to support more pairs, we have made the oracle provider upgradable. However, for security reasons, it is behind a timelocked function.
-* **We can pause** [**swaps**](guides/swaps/)****\
-  ****This will allow us to react swiftly in the case our smart contracts are vulnerable against an exploit. Users will still be able to withdraw funds from their positions during the paused period.
+* **We can pause** [**swaps**](guides/swaps/)\
+  This will allow us to react swiftly in the case our smart contracts are vulnerable against an exploit. Users will still be able to withdraw funds from their positions during the paused period.
 {% endhint %}
 
 ## **Protocol Design**
@@ -56,4 +56,4 @@ Our design minimizes any type [MEV](https://github.com/Dogetoshi/MEV) related ac
 
 
 
-### **** ****
+### &#x20;
