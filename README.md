@@ -1,6 +1,6 @@
 # Introduction to the protocol
 
-Mean Finance is the state-of-the-art DCA open protocol that enables users (or dapps) to Dollar Cost Average (DCA) any ERC20 into any ERC20 with their preferred period frequency, without sacrificing decentralization or giving up personal information to any centralized parties. We do all of this by leveraging both [Chainlink and Uniswap V3 TWAP oracles](concepts/price-oracle.md).
+Balmy is the state-of-the-art DCA open protocol that enables users (or dapps) to Dollar Cost Average (DCA) any ERC20 into any ERC20 with their preferred period frequency, without sacrificing decentralization or giving up personal information to any centralized parties. We do all of this by leveraging both [Chainlink and Uniswap V3 TWAP oracles](concepts/price-oracle.md).
 
 > [Dollar-cost averaging](https://www.investopedia.com/terms/d/dollarcostaveraging.asp) is a tool an investor can use to build savings and wealth over a long period while neutralizing the short-term volatility in the market.&#x20;
 >
