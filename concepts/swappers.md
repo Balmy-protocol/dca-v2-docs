@@ -50,7 +50,7 @@ So what can we tell about this swap?
 |      Total needed     |         300         |         100         |
 |   Total fees (0.6%)   |  300 \* 0.6% = 1.8  |  100 \* 0.6% = 0.6  |
 |  Swapper fees (0.45%) | 300 \* 0.45% = 1.35 | 100 \* 0.45% = 0.45 |
-| Treasury fees (0.15%) | 300 \* 0.15% = 0.35 | 100 \* 0.15% = 0.15 |
+| Treasury fees (0.15%) | 300 \* 0.15% = 0.45 | 100 \* 0.15% = 0.15 |
 
 ### Execution
 
@@ -60,14 +60,14 @@ And how will the execution look like?
    * 200.45 WETH = 300 WETH (available) - 100 WETH (needed) + 0.45 WETH (swapper fee)
 2. The protocol will call whatever contract the swapper specifies
 3. The protocol will expect to have 198.55 DAI returned
-   * 198.55 DAI = 300 DAI (needed) - 100 DAI (available) - 1.45 DAI (swapper fee)
+   * 198.65 DAI = 300 DAI (needed) - 100 DAI (available) - 1.35 DAI (swapper fee)
 4. The protocol will send to the treasury:
-   * 0.35 DAI (treasury fee)
+   * 0.45 DAI (treasury fee)
    * 0.15 WETH (treasury fee)
 
 ### **Changes in balances**
 
 |      | Protocol | Swapper  | Treasury |
 | ---- | -------- | -------- | -------- |
-| DAI  | + 198.2  | - 198.55 | + 0.35   |
+| DAI  | + 198.2  | - 198.65 | + 0.45   |
 | WETH | - 200.6  | + 200.45 | + 0.15   |
